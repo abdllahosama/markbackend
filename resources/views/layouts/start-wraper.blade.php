@@ -55,14 +55,14 @@
 
                                      </li>
                                      <li class="nav-item dropdown">
-                                         <a class="nav-link" href="portfolio-masonry.html">معرض الأعمال</a>
+                                         <a class="nav-link" href="{{ route('portfolio') }}">معرض الأعمال</a>
                                      </li>
                                      <li class="nav-item dropdown">
-                                         <a class="nav-link" href="blog-single.html">الأخبار</a>
+                                         <a class="nav-link" href="{{ route('blog') }}">الأخبار</a>
 
                                      </li>
                                      <li class="nav-item dropdown">
-                                         <a class="nav-link" href="contact.html">تواصل معنا</a>
+                                         <a class="nav-link" href="{{ route('contact') }}">تواصل معنا</a>
 
                                      </li>
                                  </ul>

@@ -1,10 +1,6 @@
 <?php
 
-use Illuminate\Support\Str;
-use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Pagination\LengthAwarePaginator;
-use App\Http\Controllers\Portal\PortalController;
 
 /*
 |--------------------------------------------------------------------------
@@ -30,8 +26,20 @@ Route::get('services', function () {
     return view('services');
 })->name('services');
 
-Route::get('contact-us', function () {
-    return view('contact-us');
-});
+Route::get('contact', function () {
+    return view('contact');
+})->name('contact');
+
+// portfolio
+Route::get('portfolio', function () {
+    return view('portfolio');
+})->name('portfolio');
+
+// portfolio
+Route::get('blog', function () {
+    return view('blog-single');
+})->name('blog');
+
+
 
 
