@@ -1,0 +1,822 @@
+body {
+    font-family: 'Cerebri Sans', Tajawal, sans-serif
+}
+
+body {
+    color: rgb(18, 38, 63);
+    direction: rtl;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    direction: ltr;
+}
+
+.badge-dark {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 38, 63)
+}
+
+img {
+    min-width: 4.5rem
+}
+
+.badge {
+    width: 60px;
+    display: inline-block;
+    padding: .33em .5em;
+    font-size: 76%;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .375rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.text-right {
+    text-align: right !important
+}
+
+.text-center {
+    text-align: center !important
+}
+
+.row {
+    width: 100% !important;
+    max-width: calc(100% - 80px) !important;
+    padding: 0px 40px;
+    direction: rtl;
+}
+
+.col-4 {
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin-top: 50px;
+}
+
+.col-4 {
+    display: inline-block;
+    width: 33.33333333333332%;
+    box-sizing: border-box;
+    float: right;
+    padding-right: 12px;
+    padding-left: 12px
+}
+
+.col-md-6 {
+    display: inline-block;
+    width: 50%;
+    float: right
+}
+
+.text-md-right {
+    text-align: left !important
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1.5rem;
+    color: rgb(18, 38, 63);
+    border-collapse: collapse;
+}
+
+.text-muted {
+    color: rgb(32, 32, 32) !important
+}
+
+.text-body {
+    color: rgb(18, 38, 63) !important
+}
+
+.table thead th {
+    background-color: rgb(237, 237, 237);
+    text-transform: uppercase;
+    font-size: .8125rem;
+    font-weight: 600;
+    letter-spacing: .08em;
+    color: rgb(149, 170, 201);
+    border-bottom-width: 1px;
+    padding: 0.7rem;
+    text-align: right
+}
+
+.small {
+    font-size: .9375rem;
+    font-weight: 400
+}
+
+.table td,
+.table th {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid hsl(215, 51%, 93%);
+    background: rgb(227, 235, 246)
+}
+
+.col-9 {
+    width: 65%
+}
+
+.col-3 {
+    width: 35%
+}
+
+.customed-table-small td,
+.customed-table-small th {
+    padding: .4rem 0 !important;
+    border-top: none
+}
+
+.customed-table-small th {
+    width: 140px;
+}
+
+.price-show {
+    width: 100%;
+    height: 100%;
+    background: rgb(238, 238, 238);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.price-content {
+    text-align: center;
+    vertical-align: middle
+}
+
+.badge {
+    display: inline-block;
+    padding: .33em .5em;
+    font-size: 76%;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .375rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+a.badge:focus,
+a.badge:hover {
+    text-decoration: none
+}
+
+.badge:empty {
+    display: none
+}
+
+.btn .badge {
+    position: relative;
+    top: -1px
+}
+
+.badge-pill {
+    padding-right: .6em;
+    padding-left: .6em;
+    border-radius: 10rem
+}
+
+.badge-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 123, 229)
+}
+
+a.badge-primary:focus,
+a.badge-primary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(24, 98, 198)
+}
+
+a.badge-primary.focus,
+a.badge-primary:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(44, 123, 229, .5)
+}
+
+.badge-secondary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 132, 163)
+}
+
+a.badge-secondary:focus,
+a.badge-secondary:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 107, 136)
+}
+
+a.badge-secondary.focus,
+a.badge-secondary:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(110, 132, 163, .5)
+}
+
+.badge-success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 217, 126)
+}
+
+a.badge-success:focus,
+a.badge-success:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 166, 96)
+}
+
+a.badge-success.focus,
+a.badge-success:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(0, 217, 126, .5)
+}
+
+.badge-info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 175, 209)
+}
+
+a.badge-info:focus,
+a.badge-info:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(41, 145, 174)
+}
+
+a.badge-info.focus,
+a.badge-info:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(57, 175, 209, .5)
+}
+
+.badge-warning {
+    color: rgb(40, 62, 89);
+    background-color: rgb(246, 195, 67)
+}
+
+a.badge-warning:focus,
+a.badge-warning:hover {
+    color: rgb(40, 62, 89);
+    background-color: rgb(244, 179, 18)
+}
+
+a.badge-warning.focus,
+a.badge-warning:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(246, 195, 67, .5)
+}
+
+.badge-danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 55, 87)
+}
+
+a.badge-danger:focus,
+a.badge-danger:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(208, 26, 59)
+}
+
+a.badge-danger.focus,
+a.badge-danger:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(230, 55, 87, .5)
+}
+
+.badge-light {
+    color: rgb(40, 62, 89);
+    background-color: rgb(237, 242, 249)
+}
+
+a.badge-light:focus,
+a.badge-light:hover {
+    color: rgb(40, 62, 89);
+    background-color: rgb(199, 214, 236)
+}
+
+a.badge-light.focus,
+a.badge-light:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(237, 242, 249, .5)
+}
+
+.badge-dark {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 38, 63)
+}
+
+a.badge-dark:focus,
+a.badge-dark:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(7, 14, 23)
+}
+
+a.badge-dark.focus,
+a.badge-dark:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(18, 38, 63, .5)
+}
+
+.badge-white {
+    color: rgb(40, 62, 89);
+    background-color: rgb(255, 255, 255)
+}
+
+a.badge-white:focus,
+a.badge-white:hover {
+    color: rgb(40, 62, 89);
+    background-color: rgb(230, 230, 230)
+}
+
+a.badge-white.focus,
+a.badge-white:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .15rem rgba(255, 255, 255, .5)
+}
+
+.inv-design .table td,
+.inv-design .table th {
+    border-top: none;
+    padding: 3px !important;
+    vertical-align: top;
+    border: 2px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(0, 0, 0)
+}
+
+.customed-table-small th {
+    width: 140px
+}
+
+.price-show {
+    width: 100%;
+    height: 100%;
+    background: rgb(238, 238, 238);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.price-content {
+    text-align: center;
+    vertical-align: middle
+}
+
+.sm-inv-img {
+    max-width: 2cm;
+    margin: 0 auto;
+    display: block;
+    filter: grayscale(1);
+    outline: 0;
+    border: none
+}
+
+.inv-design {
+    background: rgb(255, 255, 255);
+    color: black;
+    padding: 15px;
+    margin: 0px;
+    display: block;
+    width: 303px !important;
+    max-width: 303px;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.f-14 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+
+.f-12 {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-header {
+    text-align: center
+}
+
+.form-control[disabled] {
+    background: rgb(210, 221, 236);
+    opacity: .85
+}
+
+.invoice-show .badge {
+    display: none
+}
+
+.invoice-show .col.text-center {
+    position: absolute;
+    width: 100%
+}
+
+.invoice-show .table tbody td[colspan],
+.invoice-show .table thead th {
+    background-color: rgb(217, 217, 217) !important;
+    color: rgb(0, 0, 0)
+}
+
+.invoice-show .table thead th .h6 {
+    font-weight: 800;
+    font-size: 10px
+}
+
+.invoice-show .table td,
+.invoice-show .table th {
+    padding: .35rem !important;
+    vertical-align: top;
+    border-top: 2px solid rgb(0, 0, 0);
+    border-left: 2px solid rgb(0, 0, 0)
+}
+
+.invoice-show .table td,
+.invoice-show .table th {
+    border: 2px solid rgb(0, 0, 0) !important
+}
+
+.invoice-show .table {
+    border-spacing: 0;
+    border: 2px solid rgb(0, 0, 0)
+}
+
+.invoice-show .table tbody td:not([colspan]):nth-of-type(1) {
+    font-weight: 600
+}
+
+.invoice-show .text-muted {
+    color: rgb(70, 70, 70) !important;
+    margin-top: -6px;
+    margin-bottom: 9px
+}
+
+.invoice-show h2 {
+    margin-bottom: 10px
+}
+
+.invoice-show .mb-2 {
+    margin-top: 0
+}
+
+.invoice-show img-fluid {
+    margin-bottom: 4px;
+    filter: grayscale(1)
+}
+
+.inv-design .table th {
+    background: rgb(208, 208, 208);
+}
+
+.table-responsive {
+    direction: rtl;
+}
+
+.table-responsive table {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.text-center {
+    margin-top: 30px;
+}
+
+.table-hover {
+    margin: 30px;
+    width: calc(100% - 60px);
+}
+
+.sm-inv-img {
+    margin-bottom: 0px;
+}
+
+.sm-inv-details {
+    display: flex;
+    margin-top: 20px;
+}
+
+.reset-footer {
+    font-weight: 900;
+    font-size: 16px;
+    text-align: center;
+}
+
+.barcode {
+    font-family: barcode;
+    font-size: 46px;
+}
+
+.sm-inv-img {
+    max-width: 5.2cm;
+    width: 5.2cm;
+    height: auto !important;
+}
+
+.sm-inv-details {
+    display: flex;
+}
+
+.sm-inv-details>div {
+    width: 4cm;
+}
+
+.inv-design-5cm {
+    width: 6cm !important;
+    max-width: 6cm;
+    padding: 20px !important;
+}
+
+.inv-design-5cm .sm-inv-img {
+    max-width: 2.7cm;
+    width: 2.7cm;
+    height: auto !important;
+}
+
+.inv-design-5cm .f-14 {
+    font-size: 14px;
+}
+
+.inv-design-5cm .sm-inv-details {
+    display: block;
+}
+
+.inv-design-5cm .sm-inv-details>div {
+    width: 4.1cm;
+    text-align: center !important;
+}
+
+.inv-design-5cm.inv-design .table td,
+.inv-design-5cm.inv-design .table th {
+    font-size: 9px;
+}
+
+.inv-design-5cm .reset-footer {
+    font-size: 12px;
+}
+
+.inv-design-5cm .f-12 {
+    font-size: 11px;
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+
+.design-1-container {
+    padding: 30px;
+}
+
+.design-1-container * {
+    font-size: 15px;
+    font-family: 'Tajawal';
+}
+
+.design-1-container .h1 {
+    font-size: 30px;
+}
+
+.design-1-container .header {
+    border-bottom: 4px double;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.design-1-container .info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.design-1-container .cleint {
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.design-1-container .cleint .cleint-name {
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.design-1-container .cleint-info {
+    text-align: right;
+    line-height: 1em;
+}
+
+.design-1-container .companydetails {
+    text-align: right;
+    line-height: .5;
+}
+
+.design-1-container .invoive-detail {
+    float: left;
+    width: 40%;
+}
+
+.design-1-container .container-of-table {
+    width: 100%;
+}
+
+.design-1-container .mytable {
+    page-break-inside: avoid;
+    margin-top: 20px;
+    width: 100%;
+    border-spacing: 0px;
+    text-align: center;
+    border: 1px solid;
+    direction: rtl;
+}
+
+.design-1-container .mytable thead td {
+    border-left: 0;
+    border-right: 0;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.design-1-container .mytable td {
+    border-spacing: 0px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    align-content: center;
+    padding: 7px;
+}
+
+.design-1-container .mytable tbody tr:last-of-type td {
+    border-bottom: 0px;
+}
+
+.design-1-container .mytable tr td:last-of-type {
+    border-left: 0px;
+}
+
+.design-1-container .money-output {
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.design-1-container .money-output tr td {
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+.design-1-container .signture {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+}
+
+.design-1-container .signture {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+    margin-top: 15px;
+}
+
+.seller-signture {
+    width: 50%;
+    padding-right: 30px;
+}
+
+.design-1-container .invoice-num {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+}
+
+.design-1-container .invoice-date {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+}
+
+.design-1-container .total {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: right;
+    border-bottom: 1px solid;
+}
+
+.design-1-container br {
+    display: block;
+}
+
+.item-comment {
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 800;
+}
+
+.sup_data {
+    display: none;
+}
+
+.tafqeet-style {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: rgb(238 238 238);
+    padding: 8px;
+}
+
+.signeture-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.signeture-item .signeture-name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.signeture-item .signeture-points {
+    font-weight: 700;
+}
+
+.pioneer-data {
+    text-align: center;
+    direction: rtl;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.table-color {
+    background-color: red;
+}
+
+.printing-table {
+    border: 1px solid black;
+}
+
+.companyImage {
+    max-width: 4.54rem
+}
+
+.higlighted {
+    background-color: rgb(164, 195, 178)
+}
+
+.td-parent figure table tbody tr:first-child {
+    background-color: rgb(164, 195, 178)
+}
+
+.td-parent figure table tbody tr td:first-child {
+    background-color: rgb(204, 227, 222)
+}
+
+.td-parent figure {
+    padding: 0px !important;
+    margin: 0px !important;
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.td-parent figure table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%
+}
+
+.imageCont img {
+    max-width: 240px !important;
+    max-height: 240px !important;
+    height: auto !important;
+    width: auto !important;
+}
