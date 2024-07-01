@@ -1,9 +1,10 @@
 <?php
 
-use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Str;
+use Illuminate\Pagination\LengthAwarePaginator;
+use App\Http\Controllers\Portal\PortalController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,13 +18,20 @@ use Illuminate\Support\Str;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-//foreach (scandir($path = app_path("Modules")) as $dir) {
-//
-//    if (file_exists($filepath = $path.'/'.$dir.'/routes.php')) {
-//       // echo $filepath;
-//        require $filepath;
-//    }
-//}
+Route::get('about-us', function () {
+    return view('about-us');
+})->name('about');
+
+// services
+Route::get('services', function () {
+    return view('services');
+})->name('services');
+
+Route::get('contact-us', function () {
+    return view('contact-us');
+});
+
+
