@@ -5,7 +5,7 @@
                  <i class="bi bi-x-lg"></i>
              </a>
              <a class="navbar-brand logo" href="index.html">
-                 <img class="img-fluid" src="{{ asset('assets/portal/images/miracle-logo.')}}" alt="" />
+                 <img class="img-fluid" src="{{ asset('assets/portal/images/miracle-logo.') }}" alt="" />
              </a>
              <p class="mt-3">
                  مرحبًا بكم في شركة ميراكل، حيث يلتقي الابتكار بالتميز. نحن ملتزمون
@@ -84,7 +84,7 @@
                  </div>
              </div>
              <div class="page-title-wave">
-                 <img src="{{ asset('assets/portal/images/page-bg.svg')}}" alt="" />
+                 <img src="{{ asset('assets/portal/images/page-bg.svg') }}" alt="" />
              </div>
          </section>
 
@@ -117,7 +117,7 @@
                                          قصتك بطريقة آسرة.
                                      </p>
                                  </div>
-                                 <a class="arrow-btn" href="promo-videos.html">
+                                 <a class="arrow-btn" href="{{ route('promo-videos') }}">
                                      <i class="bi bi-arrow-up-right"></i>
                                  </a>
                              </div>
@@ -156,7 +156,7 @@
                                          متسقة مع علامتك التجارية والتي تأسر جمهورك
                                      </p>
                                  </div>
-                                 <a class="arrow-btn" href="graphic-design.html">
+                                 <a class="arrow-btn" href="{{ route('graphic') }}">
                                      <i class="bi bi-arrow-up-right"></i>
                                  </a>
                              </div>
@@ -176,7 +176,7 @@
                                          من التفاعل والتحويل.
                                      </p>
                                  </div>
-                                 <a class="arrow-btn" href="paid-ads.html">
+                                 <a class="arrow-btn" href="{{ route('paid-ads') }}">
                                      <i class="bi bi-arrow-up-right"></i>
                                  </a>
                              </div>
@@ -196,7 +196,7 @@
                                          ويعرضون ميزاتها وفوائدها بطرق جذابة بصريًا.
                                      </p>
                                  </div>
-                                 <a class="arrow-btn" href="products-photograhping.html">
+                                 <a class="arrow-btn" href="{{ route('products-photograhping') }}">
                                      <i class="bi bi-arrow-up-right"></i>
                                  </a>
                              </div>
@@ -217,7 +217,7 @@
                                      <br />
                                      <br />
                                  </div>
-                                 <a class="arrow-btn" href="editing.html">
+                                 <a class="arrow-btn" href="{{ route('editing') }}">
                                      <i class="bi bi-arrow-up-right"></i>
                                  </a>
                              </div>
@@ -237,7 +237,7 @@
                                      </p>
                                      <br />
                                  </div>
-                                 <a class="arrow-btn" href="feasability-studies.html">
+                                 <a class="arrow-btn" href="{{ route('feasability') }}">
                                      <i class="bi bi-arrow-up-right"></i>
                                  </a>
                              </div>
@@ -294,7 +294,8 @@
                                      <div role="tabpanel" class="tab-pane fade show active" id="tab1-1">
                                          <div class="row align-items-center">
                                              <div class="col-lg-6 col-md-12">
-                                                 <img class="img-fluid" src="{{ asset('assets/portal/images/tab/01.')}}" alt="" />
+                                                 <img class="img-fluid" src="{{ asset('assets/portal/images/tab/01.')}}"
+                                                     alt="" />
                                              </div>
                                              <div class="col-lg-6 col-md-12 ps-lg-8 mt-5 mt-lg-0">
                                                  <p class="mb-3">
@@ -327,7 +328,8 @@
                                      <div role="tabpanel" class="tab-pane fade" id="tab1-2">
                                          <div class="row align-items-center">
                                              <div class="col-lg-6 col-md-12">
-                                                 <img class="img-fluid" src="{{ asset('assets/portal/images/tab/02.')}}" alt="" />
+                                                 <img class="img-fluid" src="{{ asset('assets/portal/images/tab/02.') }}"
+                                                     alt="" />
                                              </div>
                                              <div class="col-lg-6 col-md-12 ps-lg-8 mt-5 mt-lg-0">
                                                  <p class="mb-3">
@@ -358,7 +360,8 @@
                                      <div role="tabpanel" class="tab-pane fade" id="tab1-3">
                                          <div class="row align-items-center">
                                              <div class="col-lg-6 col-md-12">
-                                                 <img class="img-fluid" src="{{ asset('assets/portal/images/tab/03.')}}" alt="" />
+                                                 <img class="img-fluid" src="{{ asset('assets/portal/images/tab/03.') }}"
+                                                     alt="" />
                                              </div>
                                              <div class="col-lg-6 col-md-12 ps-lg-8 mt-5 mt-lg-0">
                                                  <p class="mb-3">
@@ -396,7 +399,8 @@
                                      <div role="tabpanel" class="tab-pane fade" id="tab1-4">
                                          <div class="row align-items-center">
                                              <div class="col-lg-6 col-md-12">
-                                                 <img class="img-fluid" src="{{ asset('assets/portal/images/tab/04.')}}" alt="" />
+                                                 <img class="img-fluid" src="{{ asset('assets/portal/images/tab/04.') }}"
+                                                     alt="" />
                                              </div>
                                              <div class="col-lg-6 col-md-12 ps-lg-8 mt-5 mt-lg-0">
                                                  <p class="mb-3">
@@ -461,7 +465,8 @@
                                          <div class="carousel-item active">
                                              <div class="testimonial style-2">
                                                  <div class="testimonial-img">
-                                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/01.')}}"
+                                                     <img class="img-fluid"
+                                                         src="{{ asset('assets/portal/images/testimonial/01.') }}"
                                                          alt="" />
                                                  </div>
                                                  <div class="testimonial-desc">
@@ -483,7 +488,8 @@
                                          <div class="carousel-item">
                                              <div class="testimonial style-2">
                                                  <div class="testimonial-img">
-                                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/02.')}}"
+                                                     <img class="img-fluid"
+                                                         src="{{ asset('assets/portal/images/testimonial/02.') }}"
                                                          alt="" />
                                                  </div>
                                                  <div class="testimonial-desc">
@@ -504,7 +510,8 @@
                                          <div class="carousel-item">
                                              <div class="testimonial style-2">
                                                  <div class="testimonial-img">
-                                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/03.')}}"
+                                                     <img class="img-fluid"
+                                                         src="{{ asset('assets/portal/images/testimonial/03.') }}"
                                                          alt="" />
                                                  </div>
                                                  <div class="testimonial-desc">
@@ -525,7 +532,8 @@
                                          <div class="carousel-item">
                                              <div class="testimonial style-2">
                                                  <div class="testimonial-img">
-                                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/04.')}}"
+                                                     <img class="img-fluid"
+                                                         src="{{ asset('assets/portal/images/testimonial/04.') }}"
                                                          alt="" />
                                                  </div>
                                                  <div class="testimonial-desc">
@@ -546,7 +554,8 @@
                                          <div class="carousel-item">
                                              <div class="testimonial style-2">
                                                  <div class="testimonial-img">
-                                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/05.')}}"
+                                                     <img class="img-fluid"
+                                                         src="{{ asset('assets/portal/images/testimonial/05.') }}"
                                                          alt="" />
                                                  </div>
                                                  <div class="testimonial-desc">
@@ -568,7 +577,8 @@
                                          <div class="carousel-item">
                                              <div class="testimonial style-2">
                                                  <div class="testimonial-img">
-                                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/06.')}}"
+                                                     <img class="img-fluid"
+                                                         src="{{ asset('assets/portal/images/testimonial/06.') }}"
                                                          alt="" />
                                                  </div>
                                                  <div class="testimonial-desc">
@@ -590,7 +600,8 @@
                                          <div class="carousel-item">
                                              <div class="testimonial style-2">
                                                  <div class="testimonial-img">
-                                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/07.')}}"
+                                                     <img class="img-fluid"
+                                                         src="{{ asset('assets/portal/images/testimonial/07.') }}"
                                                          alt="" />
                                                  </div>
                                                  <div class="testimonial-desc">
@@ -612,7 +623,8 @@
                                          <div class="carousel-item">
                                              <div class="testimonial style-2">
                                                  <div class="testimonial-img">
-                                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/08.')}}"
+                                                     <img class="img-fluid"
+                                                         src="{{ asset('assets/portal/images/testimonial/08.') }}"
                                                          alt="" />
                                                  </div>
                                                  <div class="testimonial-desc">
@@ -640,28 +652,36 @@
                              <ul class="nav justify-content-center ms-0">
                                  <li class="active" aria-current="true" data-bs-target="#testimonial"
                                      data-bs-slide-to="0">
-                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/01.')}}" alt="" />
+                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/01.') }}"
+                                         alt="" />
                                  </li>
                                  <li data-bs-target="#testimonial" data-bs-slide-to="1">
-                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/02.')}}" alt="" />
+                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/02.') }}"
+                                         alt="" />
                                  </li>
                                  <li data-bs-target="#testimonial" data-bs-slide-to="2">
-                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/03.')}}" alt="" />
+                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/03.') }}"
+                                         alt="" />
                                  </li>
                                  <li data-bs-target="#testimonial" data-bs-slide-to="3">
-                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/04.')}}" alt="" />
+                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/04.') }}"
+                                         alt="" />
                                  </li>
                                  <li data-bs-target="#testimonial" data-bs-slide-to="4">
-                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/05.')}}" alt="" />
+                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/05.') }}"
+                                         alt="" />
                                  </li>
                                  <li data-bs-target="#testimonial" data-bs-slide-to="5">
-                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/06.')}}" alt="" />
+                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/06.') }}"
+                                         alt="" />
                                  </li>
                                  <li data-bs-target="#testimonial" data-bs-slide-to="6">
-                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/07.')}}" alt="" />
+                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/07.') }}"
+                                         alt="" />
                                  </li>
                                  <li data-bs-target="#testimonial" data-bs-slide-to="7">
-                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/08.')}}" alt="" />
+                                     <img class="img-fluid" src="{{ asset('assets/portal/images/testimonial/08.') }}"
+                                         alt="" />
                                  </li>
                              </ul>
                          </div>

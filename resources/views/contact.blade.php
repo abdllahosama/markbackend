@@ -1,5 +1,12 @@
       @extends('layouts.master')
       @section('content')
+          {{-- succes bootstrap --}}
+          @if (session('success'))
+              <div class="alert alert-success alert-dismissible fade show" role="alert">
+                  <strong>{{ session('success') }}</strong>
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+          @endif
           <nav id="ht-main-nav">
               <a href="#" class="ht-nav-toggle">
                   <i class="bi bi-x-lg"></i>
@@ -61,7 +68,6 @@
               </div>
           </nav>
 
-
           <section class="page-title">
               <div class="container">
                   <div class="row justify-content-center text-center">
@@ -100,7 +106,9 @@
                                   <h6>تواصل معنا</h6>
                                   <h2>أكتب رسالتك!</h2>
                               </div>
-                              <form id="contact-form" method="post" action="php/contact.php">
+
+                              <form method="post" action="{{ route('web.contact.store') }}" enctype="multipart/form-data">
+                                  @csrf
                                   <div class="messages"></div>
                                   <div class="row">
                                       <div class="col-md-4">
@@ -132,11 +140,12 @@
                                           required="required" data-error="Please,leave us a message."></textarea>
                                       <div class="help-block with-errors"></div>
                                   </div>
-                                  <button class="themeht-btn primary-btn mt-4">
+                                  <button type="submit" class="themeht-btn primary-btn mt-4">
                                       <span>ارسل رسالة</span>
                                       <i class="bi bi-arrow-right"></i>
                                   </button>
                               </form>
+
                           </div>
                           <div class="col-lg-5 col-md-12 mt-6 mt-lg-0">
                               <div class="contact-box">
